@@ -1,5 +1,4 @@
 {
-  "ignorePatterns": ["coverage", "node_mdoules", "test/unit/__mocks__"],
   "extends": ["next/core-web-vitals", "next/typescript"],
   "env": {
     "node": true

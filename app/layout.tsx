@@ -27,8 +27,10 @@ export default function RootLayout({
             baseTheme: dark,
           }}
         >
-          <NavBar />
-          {children}
+          <div className="flex h-full flex-col overflow-hidden">
+            <NavBar />
+            {children}
+          </div>
         </ClerkProvider>
       </body>
     </html>
